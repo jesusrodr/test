@@ -1,0 +1,9 @@
+# Comments in a CODEOWNERS file are prepended with the '#' character
+# Empty lines are also ignored
+# One code owners rule is used for each changed file in a pull request. 
+# Lower rules take precedence over higher rules, so this rule will only be applied
+# if no other rules match a given change in the pull request. The below rule matches
+# changes in CODEOWNERS, so <repo_creator> will always be suggested as a code owner
+
+.bitbucket/CODEOWNERS test
+repository.metadata  test
